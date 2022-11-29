@@ -10,7 +10,7 @@ eval "$(ssh-agent -s)"
 
 2. Crear el directorio ~/.ssh
 
-3. Dentro del directorio crear el fichero config
+3. Dentro del directorio crear el fichero config (Sólo MacOSX)
 
 ```bash
 Host *.github.com
