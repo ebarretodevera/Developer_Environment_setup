@@ -16,6 +16,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 ```
 
 2. Editar el .zshrc y cambiar el tema principal por el Powerlevel10k
@@ -38,13 +39,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+```
 
 ## Colorls
 
 ```bash
 brew install ruby
 cd /usr/local/Cellar/ruby/3.1.2_1/bin
-./gem install colorlsç
+./gem install colorls
 ln -s /usr/local/lib/ruby/gems/3.1.0/bin/colorls /usr/local/bin/colorls
 ```
 
