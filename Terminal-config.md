@@ -52,6 +52,12 @@ cd /usr/local/Cellar/ruby/3.1.2_1/bin
 ln -s /usr/local/lib/ruby/gems/3.1.0/bin/colorls /usr/local/bin/colorls
 ```
 
+Windows + Debian wsl
+```bash
+sudo apt install ruby-dev gcc make
+sudo gem install colorls
+```
+
 ## iTerm2 themes
 
 ```bash
